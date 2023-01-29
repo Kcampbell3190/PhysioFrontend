@@ -4,7 +4,7 @@ import'./signup.css'
 
 function signup () {
   return (
-    <div>Hello</div>
+    <div>Welcome to the Sign Up Page</div>
   )
 }
 

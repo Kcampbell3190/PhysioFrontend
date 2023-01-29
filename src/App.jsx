@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="background">
+      <div>HOMEPAGE</div>
     
     <Link to="/Signup">
     <button>Sign Up</button>
@@ -22,8 +23,8 @@ function App() {
     </Link>
 
     <Routes>
-    <Route path="/" element={<Login />} />
-    {/* <Homepage /> */}
+    <Route path="/Login" element={<Login />} />
+   
     <Route path="/Signup" element={<Signup />} />
     </Routes>
     
