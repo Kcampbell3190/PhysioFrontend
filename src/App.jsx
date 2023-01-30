@@ -13,6 +13,11 @@ function App() {
   return (
     <div className="background">
       <div>LANDING PAGE</div>
+
+  
+
+    <Link to="/">
+    </Link>
     
     <Link to="/Signup">
     <button>Sign Up</button>
@@ -23,8 +28,8 @@ function App() {
     </Link>
 
     <Routes>
-    <Route path="/Login" element={<Login />} />
-   
+        <Route path="/Login" element={<Login />} />
+        <Route path="/" element={<App />} />
     <Route path="/Signup" element={<Signup />} />
     </Routes>
     
