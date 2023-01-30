@@ -1,10 +1,13 @@
 import React from 'react'
-import'./signup.css'
-
-
-function signup () {
+import './signup.css'
+    
+    
+    
+const login = () => {
   return (
-    <div>Welcome to the Sign Up Page</div>
+    
+    <div>Welcome to the Sign Up page</div>
+
   )
 }
 

@@ -1,6 +1,6 @@
+import React from 'react'
 import { useState } from 'react'
 import './App.css'
-import Homepage from './components/homepage'
 import Login from './components/login'
 import Signup from './components/signup'
 import { Routes, Route, Link} from "react-router-dom"
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="background">
-      <div>HOMEPAGE</div>
+      <div>LANDING PAGE</div>
     
     <Link to="/Signup">
     <button>Sign Up</button>
