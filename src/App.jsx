@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import './App.css'
-import Login from './components/login'
-import Signup from './components/signup'
+import Login from './components/Login'
+import Signup from './components/SignUp'
+import HomePage from './components/HomePage'
 import { Routes, Route, Link} from "react-router-dom"
 
 
@@ -11,12 +12,13 @@ function App() {
   
 
   return (
-    <div className="background">
-      <div>LANDING PAGE</div>
+    <>
+    {/* // <div className="background">
+    //   <div>LANDING PAGE</div> */}
 
   
 
-    <Link to="/">
+    {/* <Link to="/">
     </Link>
     
     <Link to="/Signup">
@@ -25,18 +27,17 @@ function App() {
 
     <Link to="/Login">
     <button>Login</button>
-    </Link>
+    </Link> */}
 
-    <Routes>
-        <Route path="/Login" element={<Login />} />
-        <Route path="/" element={<App />} />
-    <Route path="/Signup" element={<Signup />} />
-    </Routes>
+      <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+      </Routes>
     
 
-    
+    </>
 
-    </div>
   )
 }
 

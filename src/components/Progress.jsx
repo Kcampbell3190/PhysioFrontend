@@ -1,5 +1,5 @@
 import React from 'react'
-import'./progress.css'
+
 
 
 function progress () {

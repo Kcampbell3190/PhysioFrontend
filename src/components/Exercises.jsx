@@ -1,5 +1,5 @@
 import React from 'react'
-import'./exercises.css'
+
 
 
 function exercises () {
