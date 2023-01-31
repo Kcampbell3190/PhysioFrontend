@@ -4,11 +4,11 @@ import Account from './Account'
 import Progress from './Progress'
 import Programs from './Programs'
 
-const homepage = () => {
+const DashBoard = () => {
   return (
    <>
       
-    {/* <Link to={"/Account"}>
+     <Link to={"/Account"}>
     <button>Account</button>
     </Link>
 
@@ -18,12 +18,12 @@ const homepage = () => {
       
      <Link to={"/Programs"}>
     <button>Programs</button>
-    </Link> */}
+    </Link>
       
 
    
    
-      <h1>homepage</h1>
+      <h1>Dashboard</h1>
       
     {/* <Routes>
     <Route path="/Account" element={<Account />} />
@@ -37,4 +37,4 @@ const homepage = () => {
   )
 }
 
-export default homepage
+export default DashBoard

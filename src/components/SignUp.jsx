@@ -1,17 +1,20 @@
 import React from 'react'
 import SubmitButton from './styled/AuthButton'
 import AuthButton from './styled/AuthButton'
+import { useNavigate } from 'react-router-dom'
 
     
 
     
-const Signup = () => {
+const SignUp = () => {
   // setAuthMode(authMode === "signin" ? "signup" : "signin")
 
   const linkStyles = {
 
   }
   
+  const navigate = useNavigate()
+
   return (
     <div>
       <h1>Sign-Up!</h1>
@@ -48,4 +51,4 @@ const Signup = () => {
   )
 
 }
-export default Signup
+export default SignUp

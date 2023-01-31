@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useNavigate } from 'react-router-dom'
 
 const AuthButton = styled.button`
   background-color: #4CAF50;
@@ -12,8 +13,15 @@ const AuthButton = styled.button`
   font-size: 16px;
 `
 
+
 function SubmitButton() {
-  return <AuthButton>Submit</AuthButton>
+
+  const navigate = useNavigate()
+
+  return <AuthButton onClick={()=> navigate('/DashBoard')}>Submit</AuthButton>
 }
+
+
+
 
 export default SubmitButton
