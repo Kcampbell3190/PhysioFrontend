@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const login = () => {
+const Login = () => {
  return (
     <div className="Auth-form-container">
       <form className="Auth-form">
@@ -38,4 +38,4 @@ const login = () => {
 }
 
 
-export default login
+export default Login
