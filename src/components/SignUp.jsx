@@ -2,6 +2,7 @@ import React from 'react'
 import SubmitButton from './styled/AuthButton'
 import AuthButton from './styled/AuthButton'
 import { useNavigate } from 'react-router-dom'
+import './styled/card.styles.css'
 
     
 
@@ -16,7 +17,7 @@ const SignUp = () => {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className='form-card'>
       <h1>Sign-Up!</h1>
       <form>
         <div className="form-group mt-3">
