@@ -3,6 +3,7 @@ import SubmitButton from './styled/AuthButton'
 import AuthButton from './styled/AuthButton'
 import { useNavigate } from 'react-router-dom'
 import './styled/card.styles.css'
+import './SignUp.css'
 
     
 
