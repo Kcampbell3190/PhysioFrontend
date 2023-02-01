@@ -1,16 +1,12 @@
-.images{
-    padding-top: 20%;
-    padding-left: 20%;
-    height: 30vh
-
-}
 
 
 
 
 
- /* .buttonLogin {
-  background-color: #EA4C89;
+
+  .buttonLogin {
+  background-color: #302C44;
+  position: fixed;
   max-width: 100px;
   border-radius: 8px;
   border-style: none;
@@ -21,13 +17,13 @@
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  height: 40px;
+  height: 60px;
+  width: 100px;
   line-height: 20px;
   list-style: none;
-  margin: 0.5%;
+  margin: 100px;
   outline: none;
   padding: 10px 16px;
-  position: relative;
   text-align: center;
   text-decoration: none;
   transition: color 100ms;
@@ -35,24 +31,31 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  left: 50%;
-}  */
+  right: 50%;
+}  
 
 .buttonLogin:hover,
 .buttonLogin:focus {
-  background-color: #F082AC;
+  background-color:#DBCCB6;
 } 
-.buttonLogin{
-  position: fixed;
-  top: 60%;
-  right: 200px;
-  white-space: nowrap;
-  color: rgb(245, 243, 243);
+
+
+.backgroundcontainer{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
 }
 
+.buttoncontainer{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
 
-/* .buttonSign {
-    background-color: #EA4C89;
+ .buttonSign {
+    background-color: #302C44;
+    position: fixed;
     max-width: 100px;
     border-radius: 8px;
     border-style: none;
@@ -63,14 +66,14 @@
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    height: 40px;
+    height: 60px;
+    width: 100px;
     line-height: 20px;
     list-style: none;
-    margin: 0.5%;
+    margin: 100px;
     outline: none;
-    padding: 10px 16px;
-    /* position: relative; */
-    /* text-align: center;
+    padding: 10px 16px; 
+    text-align: center;
     text-decoration: none;
     transition: color 100ms;
     vertical-align: baseline;
@@ -78,17 +81,43 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     left: 50%;
-  }  */ 
+ }
    
   .buttonSign:hover,
   .buttonSign:focus {
-    background-color: #F082AC;
-  }  */
-.buttonSign{
-    position: fixed;
-    top: 60%;
-    right: 200px;
-    white-space: nowrap;
-    color: rgb(245, 243, 243);
+    background-color: #DBCCB6;
+  }  
+
+
+.yoga1{
+  position: fixed;
+  top: 20%;
+  right: 100px;
+  white-space: nowrap;
+  background-color:#E29702;
+  border-radius: 50%;
+  padding: 4rem;
+  margin: 40px;
+}
+.yoga2{
+  position: fixed;
+  top: 20%;
+  right: 700px; 
+  white-space: nowrap;
+  background-color:#E29702;
+  border-radius: 50%;
+  padding: 4rem;
+  margin: 40px;
 }
 
+.yoga3{
+  position: fixed;
+  top: 20%;
+  right: 1200px;
+  white-space: nowrap;
+  background-color:#E29702;
+  border-radius: 50%;
+  padding: 4rem;
+  margin: 40px;
+
+}
