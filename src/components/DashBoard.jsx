@@ -1,29 +1,40 @@
 import React from 'react'
 import { Routes, Route, Link } from "react-router-dom"
-import Account from './Account'
-import Progress from './Progress'
-import Programs from './Programs'
+import Avatar from './Images/avatar.png'
+import './DashBoard.css'
 
 const DashBoard = () => {
   return (
    <>
+     
       
-     <Link to={"/Account"}>
-    <button>Account</button>
+      <img className="avatar" src={Avatar}></img>
+      
+         
+      <h1>Dashboard</h1>
+    
+      
+      <div className='buttoncontainer'>
+    
+    
+    <Link to={"/Account"}>
+    <button className="button-account">Account</button>
     </Link>
 
     <Link to={"/Progress"}>
-    <button>Progress</button>
+    <button className='button-progress'>Progress</button>
       </Link>
       
      <Link to={"/Programs"}>
-    <button>Programs</button>
-    </Link>
+    <button className='button-programs'>Programs</button>
+        </Link>
+    
+    </div>
       
 
    
    
-      <h1>Dashboard</h1>
+     
       
     {/* <Routes>
     <Route path="/Account" element={<Account />} />

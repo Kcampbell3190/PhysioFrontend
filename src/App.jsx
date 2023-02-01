@@ -5,7 +5,8 @@ import Landing from './components/Landing'
 import Login from './components/Login'
 import SignUp from './components/SignUp'
 import DashBoard from './components/DashBoard'
-import { Routes, Route, Link} from "react-router-dom"
+import { Routes, Route, Link } from "react-router-dom"
+import Programs from './components/Programs'
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/Login" element={<Login />} />
       <Route path="/auth/SignUp" element={<SignUp />} />
       <Route path="/DashBoard" element={<DashBoard />} />
+      <Route path="/Programs" element={<Programs />} />
       </Routes>
     
       </>
