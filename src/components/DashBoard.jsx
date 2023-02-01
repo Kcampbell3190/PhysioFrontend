@@ -11,8 +11,6 @@ const DashBoard = () => {
       <img className="avatar" src={Avatar}></img>
       
          
-      <h1>Dashboard</h1>
-    
       
       <div className='buttoncontainer'>
     

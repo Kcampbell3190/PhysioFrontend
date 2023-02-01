@@ -11,8 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    right: 50%;
-    left: 50%;
+    left: 40%;
+    
     
     
 }
@@ -51,7 +51,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    left: 50%;
+    left: 80%;
     top: 60%;
 }
 
@@ -82,8 +82,8 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    left: 20%;
-    top: 60%;
+    left: 40%;
+    top: 80%;
 }
 
 .button-programs {
