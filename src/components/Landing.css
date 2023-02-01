@@ -6,14 +6,10 @@
 }
 
 
-.yoga1{
-    height: 80%;
-}
 
 
 
-
-.button1 {
+ /* .buttonLogin {
   background-color: #EA4C89;
   max-width: 100px;
   border-radius: 8px;
@@ -40,23 +36,22 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   left: 50%;
-} 
+}  */
 
-.button1:hover,
-.button1:focus {
+.buttonLogin:hover,
+.buttonLogin:focus {
   background-color: #F082AC;
 } 
-
-.button1{
-    position: fixed;
-    top: 10%;
-    right: 20px;
-    white-space: nowrap;
-    color: rgb(245, 243, 243);
+.buttonLogin{
+  position: fixed;
+  top: 60%;
+  right: 200px;
+  white-space: nowrap;
+  color: rgb(245, 243, 243);
 }
 
 
-.button2 {
+/* .buttonSign {
     background-color: #EA4C89;
     max-width: 100px;
     border-radius: 8px;
@@ -74,8 +69,8 @@
     margin: 0.5%;
     outline: none;
     padding: 10px 16px;
-    position: relative;
-    text-align: center;
+    /* position: relative; */
+    /* text-align: center;
     text-decoration: none;
     transition: color 100ms;
     vertical-align: baseline;
@@ -83,16 +78,16 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     left: 50%;
-  } 
-  
-  .button2:hover,
-  .button2:focus {
+  }  */ 
+   
+  .buttonSign:hover,
+  .buttonSign:focus {
     background-color: #F082AC;
-  } 
-.button2{
+  }  */
+.buttonSign{
     position: fixed;
-    top: 0%;
-    right: -40px;
+    top: 60%;
+    right: 200px;
     white-space: nowrap;
     color: rgb(245, 243, 243);
 }

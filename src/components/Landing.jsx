@@ -6,7 +6,6 @@ import Signup from './SignUp'
 import Yoga1 from './Images/yoga1.png'
 import Yoga2 from './Images/yoga2.png'
 import Yoga3 from './Images/yoga3.png'
-import background from './Images/comet.jpeg'
 
 
 
@@ -18,13 +17,13 @@ import { Routes, Route, Link} from "react-router-dom"
 function Landing() {
 
 
-let button1 = document.querySelector('.button1');
-let button2 = document.querySelector('.button2');
+let buttonSign = document.querySelector('.buttonSign');
+let buttonLogin = document.querySelector('.buttonLogin');
 
 window.onscroll = () =>{
-    let pos = window.scrollY - 50;
-    button1.style.right = `${pos}px`
-    button2.style.left = `${pos}px`
+    let pos = window.scrollY -50;
+    buttonLogin.style.right = `${pos}px`
+    buttonSign.style.left = `${pos}px`
 }
 
  return (
@@ -39,21 +38,16 @@ window.onscroll = () =>{
     </div>
 
   
-    <div className='buttoncontainer'>
+    {/* <div className='buttoncontainer'> */}
     <Link to="/auth/Signup">
-    <button className="button2" role="button">Sign Up</button>
+    <button className="buttonSign" role="button">Sign Up</button>
     </Link>
 
     <Link to="/Login">
-    <button className="button1" role="button">Login</button>
+    <button className="buttonLogin" role="button">Login</button>
     </Link> 
-    </div>
+    {/* </div> */}
 
-      {/* <Routes>
-         
-          <Route path="/Login" element={<Login />} />
-          <Route path="/auth/Signup" element={<Signup />} />
-      </Routes> */}
   
    
   

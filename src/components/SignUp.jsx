@@ -18,38 +18,41 @@ const SignUp = () => {
   const navigate = useNavigate()
 
   return (
-    <div className='form-card'>
-      <h1>Sign-Up!</h1>
-      <form>
-        <div className="form-group mt-3">
-        <label>Username</label>
-        <input
-          type="username"
-          className="form-control mt-1"
-          placeholder="e.g JaneDoe"
-        />
+    <div className="Auth-form-container">
+    <form className="Auth-form">
+      <div className="Auth-form-content">
+        <h3 className="Auth-form-title">Sign Up</h3>
+       <div className="inputs">
+        <div>
+          {/* <label>Email address</label> */}
+          <input className='name'
+            type="name"
+            placeholder="Enter Name"
+          />
         </div>
-        <div className="form-group mt-3">
-        <label>Email</label>
-        <input
-          type="email"
-          className="form-control mt-1"
-          placeholder="e.g janedoe@email.com"
-        />
+       <div>
+        <input className='email'
+            type="email"
+            placeholder="Enter email"
+          />
+          </div>
+        <div>
+          {/* <label>Password</label> */}
+          <input className="password"
+            type="password"
+            placeholder="Enter password"
+          />
+          </div>
         </div>
-        <div className="form-group mt-3">
-        <label>Password</label>
-        <input
-          type="username"
-          className="form-control mt-1"
-          placeholder="At least 6 characters"
-        />
+        <div className="loginbtncontainer">
+          <button type="submit" className="submitbtn">
+            Submit
+          </button>
         </div>
-        <div className="d-grid gap-2 mt-3">
-            <SubmitButton />
-        </div>
-      </form>
-    </div>
+      
+      </div>
+    </form>
+  </div>
   )
 
 }
