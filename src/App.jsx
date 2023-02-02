@@ -9,6 +9,8 @@ import { Routes, Route, Link } from "react-router-dom"
 import Programs from './components/Programs'
 import Account from './components/Account'
 import Progress from './components/Progress'
+import Exercises from './components/Exercises'
+import Build from './components/Build'
 
 
 
@@ -20,7 +22,8 @@ function App() {
         {/* <Landing /> */}
         <Link to="/Landing"></Link>
 
-      <Routes>
+       <Routes>
+          
       <Route path="/" element={<Landing />} />
       <Route path="/Login" element={<Login />} />
       <Route path="/auth/SignUp" element={<SignUp />} />
@@ -28,6 +31,8 @@ function App() {
       <Route path="/Programs" element={<Programs />} />
       <Route path="/Account" element={<Account />} />
       <Route path="/Progress" element={<Progress />} />
+      <Route path="/Exercises" element={<Exercises />} />
+      <Route path="/Build" element={<Build />} />
 
       </Routes>
     
